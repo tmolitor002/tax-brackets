@@ -2,7 +2,7 @@
 
 Current collection of income tax brackets and description:
 
-1. **Income Tax Brackets.csv:** Federal income tax brackets for various filing status for 2018 and 2019. Fields include
+1. **IncomeTaxBrackets.csv:** Federal income tax brackets for various filing status for 2018 and 2019. Fields include
   * **`filing_status`:** Single, Head of Household, etc.,
     * Married Filing Jointly and Qualified Widow have the same brackets, and therefore listed together in the table as `Married Filing Jointly or Qualifying Widow`
   * **`tax_year`:** Currently 2018 and 2019 included, more coming soon!
