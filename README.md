@@ -1,2 +1,2 @@
-# tax-brackets
-Federal Tax Brackets
+# Tax Brackets
+This repository contains contains Federal Income Tax Brackets
