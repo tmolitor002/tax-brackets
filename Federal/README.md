@@ -17,6 +17,14 @@ Current collection of income tax brackets and description:
   * **`updated_y_m_d`:** The last time the record was reviewed for accuracy.
   * **`null`:** An empty field to denote that last field in the file. All fields before `null` may have usefull information, and additinal fields may be added in the future.
 
-2. **Tax Brackets.yxmc:** An Alteryx Macro that will pull `IncomeTaxBrackets.csv` from Github and perform minor data transformation to prepare the output for use.
+2. **python:** Program to calculate a very rough estimated tax liability based on year, filing status, and taxable income.
+ * **`tax_brackets.py`:** Main program. Contains interactions and calls to other python files within this folder.
+ * **`github_tax_brackets.py`:** Method used to import `IncomeTaxBrackets.csv` into the other software.
+ * **`tax_status.py`:** Method used to validate and standardized filing status.
+ * **`tax_year.py`:** Method used to validate tax year. When combined with `tax_status.py`, will minimize the tax brackets returned.
 
-3. **FederalIncome Tax Brackets Example.yxzp:** A packaged Alteryx file with three examples on how the macro can be utilized. Further insturction is also included.
+~~2. **Tax Brackets.yxmc:** An Alteryx Macro that will pull `IncomeTaxBrackets.csv` from Github and perform minor data transformation to prepare the output for use.~~
+
+~~3. **FederalIncome Tax Brackets Example.yxzp:** A packaged Alteryx file with three examples on how the macro can be utilized. Further insturction is also included.~~
+
+## To reiterate the license, THERE IS NO GUARANTEE OF ACCURACY. THIS SOFTWARE SHALL NOT BE CONSIDERED TAX ADVICE. CONSULT WITH A CERTIFIED PUBLIC ACCOUNTANT OR TAX PROFESSIONAL.
