@@ -18,6 +18,7 @@ Current collection of income tax brackets and description:
   * **`null`:** An empty field to denote that last field in the file. All fields before `null` may have usefull information, and additinal fields may be added in the future.
 
 
+
 2. **python:** Program to calculate a very rough estimated tax liability based on year, filing status, and taxable income.
  * **`tax_brackets.py`:** Main program. Contains interactions and calls to other python files within this folder.
  * **`github_tax_brackets.py`:** Method used to import `IncomeTaxBrackets.csv` into the other software.
