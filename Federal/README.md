@@ -17,6 +17,6 @@ Current collection of income tax brackets and description:
   * **`updated_y_m_d`:** The last time the record was reviewed for accuracy.
   * **`null`:** An empty field to denote that last field in the file. All fields before `null` may have usefull information, and additinal fields may be added in the future.
 
-2. **Tax Brackets.yxmc:** An Alteryx Macro that will pull `IncomeTaxBrackets.csv` from Github and perform minor data transformation to prepare the output for use.
+~~2. **Tax Brackets.yxmc:** An Alteryx Macro that will pull `IncomeTaxBrackets.csv` from Github and perform minor data transformation to prepare the output for use.~~
 
-3. **FederalIncome Tax Brackets Example.yxzp:** A packaged Alteryx file with three examples on how the macro can be utilized. Further insturction is also included.
+~~3. **FederalIncome Tax Brackets Example.yxzp:** A packaged Alteryx file with three examples on how the macro can be utilized. Further insturction is also included.~~
