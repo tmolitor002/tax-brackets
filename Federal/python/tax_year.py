@@ -30,12 +30,12 @@ def tax_year_int(prompt, min = min_year, max=max_year):
 
 def main():
 	print('Test of main function:\n')
-  print(min_year)
-  print(max_year)
-  print(tax_year_int(2018, min_year, max_year))
-  print('')
-  print('#######################################################')
-  print('')
+	print(min_year)
+	print(max_year)
+	print(tax_year_int(2018, min_year, max_year))
+	print('')
+	print('#######################################################')
+	print('')
 
 if __name__ == '__main__':
 	main()
