@@ -2,7 +2,7 @@
 
 Current collection of income tax brackets and description:
 
-1. **IncomeTaxBrackets.csv:** Federal income tax brackets for various filing status for 2008 through 2020. Fields include:
+1. **IncomeTaxBrackets.csv:** Federal income tax brackets for various filing status for 2008 through 2024. Fields include:
   * **`filing_status`:**
     * `Head of Household`
     * `Married Filing Jointly`
