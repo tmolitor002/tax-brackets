@@ -3,7 +3,7 @@ def opening_message(): # This is just for fun
 	print("######################################################")
 	print("#                                                    #")
 	print("#                                                    #")
-	print("  PLEASE WAIT {}, LIBRARY IS LOADING...                ".format(name))
+	print("# PLEASE WAIT {}, LIBRARY IS LOADING...             #".format(name))
 	print("#                                                    #")
 	print("#                                                    #")
 	print("######################################################")
