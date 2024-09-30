@@ -9,16 +9,13 @@ Current collection of income tax brackets and description:
     * `Married Filing Separately`
     * `Qualifying Widow`
     * `Single`
-  * **`tax_year`:** Currently ~~2008~~ 2000 through ~~2020~~ 2024 included.
+  * **`tax_year`:** Currently 2008 through ~~2020~~ 2024 included.
   * **`bracket_min`:** The minimum amount or lower bound taxed at a given rate. e.g., for Married Filing Jointly in 2018, `bracket_min` would be `600000` for the 37% rate. The lowest tax bracket will have a value of `0`.
   * **`bracket_max`:** The maximum amount or upper bound taxed at a given rate. e.g, for Married Filing Jointly in 2018, `bracket_max` would be `600000` for the 35% rate. If the top tax bracket has no maximum, the value will be *empty*.
   * **`rate`:** Tax rate for the given tax bracket. e.g, for Married Filing Jointly in 2018, the top rate of 37% would be `0.37`.
   * **`add_tax`:** The amount of tax to be added from lower tax brackets.
   * **`updated_y_m_d`:** The last time the record was reviewed for accuracy.
-  * **`null`:** An empty field to denote that last field in the file. All fields before `null` may have usefull information, and additinal fields may be added in the future.
-
-
-
+  
 2. **python:** Program to calculate a very rough estimated tax liability based on year, filing status, and taxable income.
  * **`tax_brackets.py`:** Main program. Contains interactions and calls to other python files within this folder.
  * **`github_tax_brackets.py`:** Method used to import `IncomeTaxBrackets.csv` into the other software.
