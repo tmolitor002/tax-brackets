@@ -22,6 +22,8 @@ Current collection of income tax brackets and description:
  * **`tax_status.py`:** Method used to validate and standardized filing status.
  * **`tax_year.py`:** Method used to validate tax year. When combined with `tax_status.py`, will minimize the tax brackets returned.
 
+Note that this is just a rough calculationg of your federal income taxes, and does not take many common situations into account. You're actual tax liability may be significantly different depending on your situation, and you shouldn't trust random guy who updates a .csv file once a year to check your returns for you.
+
 ~~2. **Tax Brackets.yxmc:** An Alteryx Macro that will pull `IncomeTaxBrackets.csv` from Github and perform minor data transformation to prepare the output for use.~~
 
 ~~3. **FederalIncome Tax Brackets Example.yxzp:** A packaged Alteryx file with three examples on how the macro can be utilized. Further insturction is also included.~~
